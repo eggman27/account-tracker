@@ -1,0 +1,132 @@
+﻿{
+	"Accounts":[
+	    {
+	    	"AccountName":"Chris Account",
+	    	"ScheduledPayments" : [
+	    		{
+	    			"Description" : "Charleigh Pay",
+	    			"StartDate" : "2014/01/01",
+	    			"Schedule" : "Monthly",
+	    			"PayDay" : "15",
+	    			"Ammount" : 1000
+	    		},
+	    		{
+	    			"Description" : "Chris Pay",
+	    			"StartDate" : "2014/01/01",
+	    			"Schedule" : "Monthly",
+	    			"PayDay" : "1",
+	    			"Ammount" : 1000
+	    		}
+	    	],
+	    	"PaymentDates": [
+	    		{
+	    			"DateID" : "1234",
+	    			"PrevDate" : "",
+	    			"NextDate" : "4321",
+	    			"Date" : "2014/06/06",
+	    			"StartBalance" : 200,
+	    			"EndBalance" : 300,
+	    			"Payments" : [
+	    				{
+	    					"Type" : "Credit",
+	    					"Ammount" : 100,
+	    					"Description" : "Text Stuff"
+	    				},
+	    				{
+	    					"Type" : "Debit",
+	    					"Ammount" : -100,
+	    					"Description" : "Text Stuff"
+	    				},
+	    				{
+	    					"Type" : "Credit",
+	    					"Ammount" : 100,
+	    					"Description" : "Text Stuff"
+	    				}
+	    			]
+    			},
+	    		{
+	    			"DateID" : "4321",
+	    			"PrevDate" : "1234",
+	    			"NextDate" : "",
+	    			"Date" : "2014/06/10",
+	    			"StartBalance" : 300,
+	    			"EndBalance" : 400,
+	    			"Payments" : [
+	    				{
+	    					"Type" : "Credit",
+	    					"Ammount" : 100,
+	    					"Description" : "Text Stuff"
+	    				},
+	    				{
+	    					"Type" : "Debit",
+	    					"Ammount" : 100,
+	    					"Description" : "Text Stuff"
+	    				},
+	    				{
+	    					"Type" : "Credit",
+	    					"Ammount" : 100,
+	    					"Description" : "Text Stuff"
+	    				}
+	    			]
+    			}
+	    	]
+    	}, 
+	    {
+	    	"AccountName":"Charleigh Account",
+	    	"PaymentDates": [
+	    		{
+	    			"DateID" : "1234",
+	    			"PrevDate" : "",
+	    			"NextDate" : "4321",
+	    			"Date" : "2014/06/06",
+	    			"StartBalance" : 200,
+	    			"EndBalance" : 300,
+	    			"Payments" : [
+	    				{
+	    					"Type" : "Credit",
+	    					"Ammount" : 100,
+	    					"Description" : "Text Stuff"
+	    				},
+	    				{
+	    					"Type" : "Debit",
+	    					"Ammount" : 100,
+	    					"Description" : "Text Stuff"
+	    				},
+	    				{
+	    					"Type" : "Credit",
+	    					"Ammount" : 100,
+	    					"Description" : "Text Stuff"
+	    				}
+	    			]
+    			},
+	    		{
+	    			"DateID" : "4321",
+	    			"PrevDate" : "1234",
+	    			"NextDate" : "",
+	    			"Date" : "2014/06/10",
+	    			"StartBalance" : 300,
+	    			"EndBalance" : 400,
+	    			"Payments" : [
+	    				{
+	    					"Type" : "Credit",
+	    					"Ammount" : 100,
+	    					"Description" : "Text Stuff"
+	    				},
+	    				{
+	    					"Type" : "Debit",
+	    					"Ammount" : 100,
+	    					"Description" : "Text Stuff"
+	    				},
+	    				{
+	    					"Type" : "Credit",
+	    					"Ammount" : 100,
+	    					"Description" : "Text Stuff"
+	    				}
+	    			]
+    			}
+	    	]
+    	}
+	    
+	]
+
+}
